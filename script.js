@@ -2,9 +2,10 @@
 //Shared secret	67d2dc6a9fed482cb2b445aff09aad5c
 
 $(document).ready(function () {
-    let artist="sufjan stevens";
+    let artist="svdden death";
     //submit
     
+   
 
     $.getJSON("https://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=0920de014dfbd71690d7f0a435b8b5b0&artist=slowthai&track=gorgeous&format=json", function(data){
         //console.log(data);

@@ -9,13 +9,16 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-    <form id="form">
-        <input id="artist-input"type="text" placeholder="Artist">
-        <button type="submit" id="submit">submit</button>
+
+    <form action="" method="post" name="formxml">
+        <input type="text" name="xmlname" placeholder="ARTIST" id="xmlname">
+        <input type="button" onclick="myFunction();" value="submit">
     </form>
     
     <h1><span id="artist"></span>'s top tracks:</h1>
     <div id="result"></div>
+
     <script src="./script.js"></script>
+
 </body>
 </html>
